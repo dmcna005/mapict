@@ -1,0 +1,13 @@
+from setuptools import setup
+
+setup(
+    name=mongodb_api_tool'opsmanagerapi',
+    version='1.0.0',
+    description='A command line tool that uses restful api call to mongodb',
+    url='https://github.com/dmcna005/opsmanagerapi',
+    author='Dwayne McNab',
+    author_email='dwayne.mcnab@equifax.com',
+    license='GNU',
+    packages=['opsmanagerapi']
+
+)

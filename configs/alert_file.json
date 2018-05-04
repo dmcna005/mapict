@@ -1,0 +1,62 @@
+[
+    {
+        "eventTypeName": "MONITORING_AGENT_DOWN", 
+        "enabled": true, 
+        "groupId": "5a987da3853c1b16a615f63f", 
+        "notifications": [
+            {
+                "smsEnabled": false, 
+                "typeName": "GROUP", 
+                "intervalMin": 60, 
+                "delayMin": 0, 
+                "emailEnabled": true
+            }
+        ]
+    }, 
+    {
+        "eventTypeName": "HOST_SSL_CERTIFICATE_STALE", 
+        "enabled": true, 
+        "groupId": "5a987da3853c1b16a615f63f", 
+        "notifications": [
+            {
+                "smsEnabled": false, 
+                "typeName": "GROUP", 
+                "intervalMin": 1440, 
+                "delayMin": 0, 
+                "emailEnabled": true
+            }
+        ]
+    }, 
+    {
+        "eventTypeName": "JOINED_GROUP", 
+        "enabled": true, 
+        "groupId": "5a987da3853c1b16a615f63f", 
+        "notifications": [
+            {
+                "smsEnabled": false, 
+                "typeName": "GROUP", 
+                "intervalMin": 60, 
+                "delayMin": 0, 
+                "emailEnabled": true
+            }
+        ]
+    }, 
+    {
+        "eventTypeName": "USERS_AWAITING_APPROVAL", 
+        "enabled": true, 
+        "groupId": "5a987da3853c1b16a615f63f", 
+        "notifications": [
+            {
+                "roles": [
+                    "GROUP_OWNER", 
+                    "GROUP_USER_ADMIN"
+                ], 
+                "smsEnabled": false, 
+                "intervalMin": 60, 
+                "typeName": "GROUP", 
+                "delayMin": 0, 
+                "emailEnabled": true
+            }
+        ]
+    }
+]
